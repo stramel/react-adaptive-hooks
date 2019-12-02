@@ -6,11 +6,9 @@
   "author": "Google Chrome",
   "license": "Apache-2.0",
   "private": false,
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "unpkg": "dist/index.umd.js",
+  "main": "index.js",
   "source": "index.js",
-  "typings": "index.d.ts",
+  "types": "index.d.ts",
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
